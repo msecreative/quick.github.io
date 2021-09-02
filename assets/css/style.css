@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;600;800&display=swap');
+
+
+/*Default CSS Start*/
+body {
+    overflow-x: hidden
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+
+a,
+a:hover {
+    text-decoration: none
+}
+
+a {
+    display: inline-block
+}
+
+.header-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 184px;
+    background: #F4F7FB;
+}
+
+.site-logo img {
+    position: static;
+    width: 202px;
+    height: 40px;
+    left: 184px;
+    top: 20px;
+}
+
+.site-left-menu ul {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    padding: 0;
+    position: static;
+    width: 555px;
+    height: 24px;
+    left: 596.8px;
+    top: 30px;
+}
+
+.site-left-menu ul li a {
+    padding: 0 30px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #555963;
+    transition: 0.3s;
+}
+
+.site-left-menu ul li a:hover{
+    color: #00a0ee;
+}
+.site-right-menu {
+    display: flex;
+    align-items: center;
+    height: 48px;
+    width: 265px;
+}
+
+.site-right-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.site-right-menu a {
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 24px;
+    color: #555963;
+}
+
+.site-right-menu span a {
+    background: #00a0ee;
+    border-radius: 4px;
+    padding: 12px 16px;
+    color: #fff;
+}
+
+.site-right-menu span a:hover {
+    border: 1px solid #00a0ee;
+    color: #00a0ee;
+    background: #fff;
+}
+
+.site-right-menu a:hover{
+    color: #00a0ee;
+}
+
+.hero-left-content, .hero-right-content{
+    padding: 200px 0;
+}
+
+.hero-left-content h2 {
+    font-size: 90px;
+    color: #008CD0;
+    text-transform: capitalize;
+    font-weight: 500;
+    line-height: 106.2px;
+}
+
+.hero-left-content h4 {
+    font-size: 34px;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 40.29px;
+    color: #868B97;
+}
+
+.hero-right-content img {
+    height: 100%;
+    width: 100%;
+}
+
+.hero-btn {
+    padding: 20px 0;
+}
+
+
+.hero-btn a {
+    border: 1px solid #00A0EE;
+    color: #008CD0;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23.7px;
+    text-align: center;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    margin-right: 20px;
+}
+
+.hero-btn a:hover {
+    background: #00A0EE;
+    color: #fff;
+}
+
+.hero-btn a.active {
+    background: #00A0EE;
+    color: #fff;
+}
+
+.hero-link a {
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 23.7px;
+}
+
+.hero-link {
+    padding: 10px 0;
+}
+
+
+.hero-seciton {
+   background: url('../images/ornaments.png');
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+}
+
+
+.feature-box {
+    border: 1px solid #BDC0C6;
+    padding: 24px 15px;
+    background: #fff;
+}
+
+.feature-box h3 {
+    font-size: 27px;
+    line-height: 32px;
+    font-weight: 500;
+    color: #008CD0;
+    margin: 16px 0;
+    text-transform: capitalize;
+}
+
+.feature-box p {
+    font-size: 15px;
+    color: #555963;
+}
